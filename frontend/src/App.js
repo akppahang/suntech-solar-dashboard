@@ -10,7 +10,7 @@ function App() {
     };
 
     const handleSubmit = () => {
-        // No input validation: directly using user input - sample
+        // No input validation: directly using user input 
         console.log("User input: " + input);
         alert("Input submitted: " + input); // Vulnerable to XSS
     };
