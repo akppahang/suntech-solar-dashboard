@@ -10,9 +10,13 @@ function App() {
     };
 
     const handleSubmit = () => {
-        // No input validation: directly using user input 
+        // Input validation
+        if (!input || /<script.*?>.*?<\/script>/i.test(input)) {
+            alert("Invalid input. Please avoid using scripts.");
+            return;
+        }
         console.log("User input: " + input);
-        alert("Input submitted: " + input); // Vulnerable to XSS
+        alert("Input submitted: " + input);
     };
 
     return (
