@@ -1,6 +1,0 @@
-# Database configuration
-DB_HOST=localhost
-DB_PORT=5432
-DB_USER=myapp_user
-DB_PASSWORD=some_sensitive_password
-DB_NAME=myapp_db
