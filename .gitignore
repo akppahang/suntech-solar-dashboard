@@ -1,4 +1,0 @@
-# Sensitive files 
-.env 
-secret.json 
-config/database.yml
